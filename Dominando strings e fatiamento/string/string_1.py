@@ -20,3 +20,15 @@ print(menu.center(14, "#"))
 # Uso do join
 print("p-y-t-h-o-n")
 print("-".join(menu))
+
+
+# String 4
+nome = "Regiane"
+
+mensagem = f'''
+    Olá, meu nome é {nome},
+Eu estou aprendendo Python.
+    Essa mensagem tem diferentes recuos.
+'''
+
+print(mensagem)
